@@ -1,0 +1,9 @@
+permisison on colornote:
+id= com.android.permissioncontroller:id/permission_allow_button
+class= android.widget.Button
+package=com.google.android.permissioncontroller
+
+
+adb kill-server
+adb start-server
+adb reconnect
