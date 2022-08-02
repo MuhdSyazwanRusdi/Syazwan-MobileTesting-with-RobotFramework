@@ -29,9 +29,9 @@ Test_additional
 *** Keywords ***
 
 Open_calculator
-    Open Application    ${host}    platformName=${platAndroid}    deviceName=${redmi9}    appPackage=com.everydaycalculation.casiocalculator   appActivity=com.everydaycalculation.casiocalculator.Basic
+    Open Application    ${host}    platformName=${platAndroid}    deviceName=${emulator}    appPackage=com.everydaycalculation.casiocalculator   appActivity=com.everydaycalculation.casiocalculator.Basic
     wait until page contains element    id=com.everydaycalculation.casiocalculator:id/mainLayout
 
 
-#com.android.permissioncontroller:id/permission_allow_button
-# robot --include=colornote -d PycharmOutput --loglevel TRACE mobile_test.robot
+
+#Write on terminal: robot --include=calculator -d PycharmOutput --loglevel TRACE mobile_test.robot
